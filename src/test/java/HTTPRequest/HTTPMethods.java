@@ -46,7 +46,7 @@ public class HTTPMethods {
 	{
 		HashMap data= new HashMap();
 		data.put("name", "afnaan");
-		data.put("job", "QA Engineer");
+		data.put("job", "QA Automation Engineer");
 		
 		given()
 			.contentType("application/json")
