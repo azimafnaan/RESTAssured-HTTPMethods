@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="HTTPRequest.HTTPMethods">
+      <class name="JSONXMLSchemaValidations.JSONSchemaValidation">
         <methods>
-          <include name="getUsers"/>
+          <include name="jsonschemavalidation"/>
         </methods>
-      </class> <!-- HTTPRequest.HTTPMethods -->
+      </class> <!-- JSONXMLSchemaValidations.JSONSchemaValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
